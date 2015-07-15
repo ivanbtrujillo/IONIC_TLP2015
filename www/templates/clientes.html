@@ -1,0 +1,15 @@
+<ion-view view-title="Clientes">
+  <ion-content>
+    <h1>Mis Clientes</h1>
+
+    <ion-list>
+      <ion-item ng-repeat="cliente in clientes" class="item-avatar">
+             <img ng-src='img/ionic.png'>
+             <h2>{{cliente.Name}}</h2>
+             <p>{{cliente.City}}</p>
+             <p>{{cliente.Country}}</p>
+      </ion-item>
+    </ion-list>
+
+  </ion-content>
+</ion-view>
